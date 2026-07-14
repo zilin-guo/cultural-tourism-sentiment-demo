@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# Raw or semi-raw Google Places API content is kept local only.
+outputs/google_places_navarra_200_filtered/
+outputs/google_places_torino_200_filtered/
+outputs/google_places_navarra_torino_combined/
+**/raw_details.json
+**/places.csv
+**/reviews.csv
+**/reviews_all.csv
+**/reviews_1000_balanced.csv
+**/places_combined.csv
+**/analyzed_reviews.csv
+**/negative_review_examples.csv

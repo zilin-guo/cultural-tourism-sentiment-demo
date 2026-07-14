@@ -1,0 +1,15 @@
+﻿region_short,theme,theme_label,review_count,total_reviews_region,review_share_percent,avg_sentiment_compound,negative_review_count
+Navarra,heritage_preservation,Heritage Preservation,132,457,28.88,0.5709,11
+Navarra,crowding_visitor_pressure,Crowding Visitor Pressure,10,457,2.19,0.7129,0
+Navarra,accessibility_transport,Accessibility Transport,99,457,21.66,0.5351,10
+Navarra,cleanliness_environment,Cleanliness Environment,56,457,12.25,0.6067,5
+Navarra,local_authenticity,Local Authenticity,65,457,14.22,0.6208,6
+Navarra,digital_tools,Digital Tools,6,457,1.31,0.4299,2
+Navarra,visitor_management_service,Visitor Management Service,67,457,14.66,0.7249,3
+Torino,heritage_preservation,Heritage Preservation,172,484,35.54,0.6869,14
+Torino,crowding_visitor_pressure,Crowding Visitor Pressure,15,484,3.1,0.6582,1
+Torino,accessibility_transport,Accessibility Transport,82,484,16.94,0.6955,7
+Torino,cleanliness_environment,Cleanliness Environment,68,484,14.05,0.7323,5
+Torino,local_authenticity,Local Authenticity,64,484,13.22,0.6887,6
+Torino,digital_tools,Digital Tools,35,484,7.23,0.5075,8
+Torino,visitor_management_service,Visitor Management Service,100,484,20.66,0.6985,9
