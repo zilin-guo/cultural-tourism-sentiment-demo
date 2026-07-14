@@ -173,11 +173,11 @@ This supports the VADER result that most tourist comments were positive.
 
 The correlation between Google star ratings and VADER compound sentiment scores was positive and statistically significant, but weak.
 
-| Group | Reviews | Spearman rho | Pearson r |
-|---|---:|---:|---:|
-| All reviews | 941 | 0.236 | 0.328 |
-| Navarra | 457 | 0.238 | 0.282 |
-| Torino | 484 | 0.232 | 0.371 |
+| Group | Spearman rho | Spearman p-value | Pearson r | Pearson p-value |
+|---|---:|---:|---:|---:|
+| All reviews | 0.236 | 2.14e-13 | 0.328 | 5.72e-25 |
+| Navarra | 0.238 | 2.77e-07 | 0.282 | 8.87e-10 |
+| Torino | 0.232 | 2.37e-07 | 0.371 | 2.93e-17 |
 
 This result suggests that text sentiment and star ratings move in the same direction, but they are not the same measure. Star ratings give a simple evaluation, while review text can include more detailed experiences.
 
