@@ -255,6 +255,36 @@ export GOOGLE_MAPS_API_KEY="YOUR_API_KEY"
 
 Then run the collection script with region-specific query files. The API key is not stored in the code.
 
+### Adapting the Workflow to Other Study Areas
+
+This workflow is designed to be general. The current demo uses Navarra and Torino, but the same scripts can be reused for other regions or cities.
+
+To change the study area, update these files or settings:
+
+- Search queries: edit [navarra_queries.txt](work/google_places_navarra_test/navarra_queries.txt) and [torino_queries.txt](work/google_places_navarra_test/torino_queries.txt), or create new query files for the new regions.
+- Data collection settings: change `--region`, `--region-code`, `--address-filter`, `--max-places`, and `--output-dir` when running [fetch_places_reviews.py](work/google_places_navarra_test/fetch_places_reviews.py).
+- Dataset combination: update the input and output folders in [combine_datasets.py](work/google_places_navarra_test/combine_datasets.py) if the region names or folder names change.
+- Region labels and colors: update `REGION_LABELS` and `REGION_COLORS` in [analyze_reviews.py](work/google_places_navarra_test/analyze_reviews.py) and `REGION_COLORS` in [correlation_analysis.py](work/google_places_navarra_test/correlation_analysis.py).
+- Keyword theme coding: edit [theme_keywords.json](work/google_places_navarra_test/theme_keywords.json) if the new study area needs different sustainability or cultural tourism themes.
+
+For example, a new region can be collected by changing the region name, country code, address filter, and query file:
+
+```bash
+python work/google_places_navarra_test/fetch_places_reviews.py \
+  --region "New Region, Country" \
+  --region-code "XX" \
+  --queries-file work/google_places_navarra_test/new_region_queries.txt \
+  --address-filter "New Region" \
+  --max-places 200 \
+  --output-dir outputs/google_places_new_region
+```
+
+## Distribution and Reuse
+
+The code, documentation, aggregate tables, and figures in this repository are free to use, share, and adapt for academic and educational purposes.
+
+This free distribution statement does not apply to Google Maps Platform content or Google review text. Google-derived content remains subject to Google Maps Platform policies and terms, and the raw review dataset is not redistributed in this repository.
+
 ## References
 
 Chemin, M., Silva, C. P. D., & Vikou, S. V. D. P. (2025). *User-generated content (UGC) in tourist attractions and destinations: systematic literature review and perspectives for management*.
