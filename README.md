@@ -139,7 +139,7 @@ Visitor management and service also appeared more often in Torino:
 
 ### Sentiment by Theme
 
-The average sentiment score was positive for all themes in both regions. This means that sustainability-related comments were not mainly negative in this sample.
+The average sentiment score was positive for all themes in both regions.
 
 For heritage preservation, Torino had a higher average sentiment score:
 
@@ -179,7 +179,7 @@ The correlation between Google star ratings and VADER compound sentiment scores 
 | Navarra | 0.238 | 2.77e-07 | 0.282 | 8.87e-10 |
 | Torino | 0.232 | 2.37e-07 | 0.371 | 2.93e-17 |
 
-This result suggests that text sentiment and star ratings move in the same direction, but they are not the same measure. Star ratings give a simple evaluation, while review text can include more detailed experiences.
+This result suggests that text sentiment and star ratings move in the same direction, but they are not the same measure. Star ratings give a simple evaluation, while review text can include more detailed experiences. Therefore, it has a potential value to research.
 
 ![Rating and sentiment correlation](outputs/google_places_navarra_torino_analysis/rating_sentiment_correlation_scatter.png)
 
